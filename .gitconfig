@@ -1,0 +1,29 @@
+[user]
+	name = Yike Wang
+    email = wangyike@siac-sh.com
+
+[alias]
+    st = status
+    ci = commit
+    br = branch
+    co = checkout
+    mg = merge
+    flg = log --graph --decorate --oneline --all
+
+#配置颜色
+[color]
+    ui = true
+
+#让git忽略对文件权限的修改
+[core]
+    filemode = false
+
+# git diff = git d 
+[diff]
+    tool = vimdiff
+[difftool]
+    prompt = false
+[alias]
+    d = difftool
+
+
